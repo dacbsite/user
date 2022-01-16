@@ -147,7 +147,6 @@
 
 					<div class="intro-item">
 						<h2>DAILY READ</h2>
-						<h4><i>Church of the Nazarene, Zimbabwe</i></h4>
 
 						<div class="intro-item-inner">
 							<figure>
@@ -159,12 +158,14 @@
 									<div class="randomize-btn">
 										<a href="javascript:;" onclick="RandomContent();">Randomize</a>
 									</div>
+									<span id="name">Tenis Alfas Mutowa</span>
 									<span id="date">1925 - 2017</span>
 									<span id="country">Zimbabwe</span>
-									<span id="Collected">Collected Memory</span>
+									<span id="Collected">Church of the Nazarene</span>
 								</div>
 
-								<p id="description">Tennis Alfas Mutowa passed away 26 October. He was 83 years old. When the Church of the Nazarene entered Zimbabwe in 1963, Mutowa was among the first converts under the ministry of missionary Morris Hall. Soon after he joined the church, Mutowa received a call to ministry and was sent to Malawi to study. <a href="#">read more</a></p>
+								<p id="description">Tennis Alfas Mutowa passed away 26 October. He was 83 years old. When the Church of the Nazarene entered Zimbabwe in 1963, Mutowa was among the first converts under the ministry of missionary Morris Hall. Soon after he joined the church, Mutowa received a call to ministry and was sent to Malawi to study.</p>
+								<a href="#">read more</a>
 								<!-- <a href="javascript:;" class="show_hide" data-content="toggle-text" >Read More</a>
                                 <a href="javascript:;" class="hide" style="display:none;" data-content="toggle-text">Read Less</a> -->
 							</div>
@@ -192,7 +193,7 @@
 						<figure>
 							<img src="images/info-img2.png" alt="">
 						</figure>
-						<h3>The journal of african cristian biography</h3>
+						<h3>The journal of African Christian biography</h3>
 					</div>
 
 					<div class="info-item">
@@ -398,8 +399,10 @@ RandomContent();
                 $("#date").text(rowCells[rowCell]);
               }else if(rowCell==2){
                   $("#country").text(rowCells[rowCell]);
-              }else if(rowCell==3){
-                  $("#Collected").text(rowCells[rowCell]);
+	      }else if(rowCell==0){
+		  $("#name").text(rowCells[rowCell]);
+	      }else if(rowCell==3){
+                  $("#Collected").text(rowCells[rowCell]);	
               }else if(rowCell==4){
                   if(rowCells.length > 4){
                       var desc="";
