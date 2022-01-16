@@ -171,16 +171,25 @@ header { padding: 31px 0 33px 0; }
 /*==============================
 	intro
 ================================*/
-.intro { padding: 46px 0 30px 0; }
+.intro { padding: 46px 40px 30px 40px; }
 .intro-area { 
 	overflow: hidden;
-	max-width: 1240px; 
 }
 .intro-item {
-	width: 50%;
+	width: 70%;
 	float: left;
 }
+.intro-item2 {
+	width 30%;
+	fload: left;
+}
 .intro-item h2 {
+	font-size: 34px;
+	line-height: 43px;
+	text-align: center;
+	color: #494e53;
+}
+.intro-item2 h2 {
 	font-size: 34px;
 	line-height: 43px;
 	text-align: center;
@@ -217,7 +226,7 @@ header { padding: 31px 0 33px 0; }
 }
 .intro-item-inner figure {
 	float: left;
-	width: 45%;
+	width: 30%;
 	padding: 0 20px;
 }
 .intro-item-inner-content {
@@ -227,10 +236,10 @@ header { padding: 31px 0 33px 0; }
 .intro-item-inner-content .content-top { margin-bottom: 25px; }
 .intro-item-inner-content .content-top span {
 	display: block;
-	font-size: 25px;
+	font-size: 20px;
 	font-style: italic;
 	color: #717579;
-	line-height: 32px;
+	line-height: 25px;
 }
 .intro-item-inner-content p {
 	font-size: 21px;
@@ -267,6 +276,10 @@ header { padding: 31px 0 33px 0; }
 	display: block;
 	padding: 0 15px;
 	color: #fff;
+}
+.rd-more-btn {
+	display: block;
+	color: #802525;
 }
 /*==============================
 	info
