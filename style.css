@@ -232,7 +232,7 @@ header { padding: 31px 0 33px 0; }
 .intro-item-inner-content {
 	float: left;
 	width: 50%;
-	position: absolute;
+	position: relative; 
 }
 .intro-item-inner-content .content-top { margin-bottom: 25px; }
 .intro-item-inner-content .content-top span {
