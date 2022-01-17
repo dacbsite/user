@@ -171,16 +171,16 @@ header { padding: 31px 0 33px 0; }
 /*==============================
 	intro
 ================================*/
-.intro { padding: 46px 0px 30px 0px; }
+.intro { padding: 46px 40px 30px 40px; }
 .intro-area { 
 	overflow: hidden;
 }
 .intro-item {
-	width: 70%;
+	width: 50%;
 	float: left;
 }
 .intro-item2 {
-	width 30%;
+	width 50%;
 	float: left;
 }
 .intro-item h2 {
@@ -227,9 +227,12 @@ header { padding: 31px 0 33px 0; }
 .intro-item-inner figure {
 	float: left;
 	padding: 0 20px;
+	position: relative;
 }
 .intro-item-inner-content {
 	float: left;
+	width: 50%;
+	position: absolute;
 }
 .intro-item-inner-content .content-top { margin-bottom: 25px; }
 .intro-item-inner-content .content-top span {
