@@ -217,12 +217,14 @@ header { padding: 31px 0 33px 0; }
 .intro-item-wrap p {
 	font-size: 25px;
 	line-height: 39px;
-	text-align: justify;
+	text-align: left;
 	color: #686c70;
 }
 .intro-item-inner {
 	overflow: hidden;
 	margin-top: 17px;
+	border-style: solid;
+	border-width: medium;
 }
 .intro-item-inner figure {
 	float: left;
