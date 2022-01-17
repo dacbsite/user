@@ -171,7 +171,7 @@ header { padding: 31px 0 33px 0; }
 /*==============================
 	intro
 ================================*/
-.intro { padding: 46px 40px 30px 40px; }
+.intro { padding: 46px 0px 30px 0px; }
 .intro-area { 
 	overflow: hidden;
 }
@@ -230,7 +230,6 @@ header { padding: 31px 0 33px 0; }
 }
 .intro-item-inner-content {
 	float: left;
-	width: 55%;
 }
 .intro-item-inner-content .content-top { margin-bottom: 25px; }
 .intro-item-inner-content .content-top span {
