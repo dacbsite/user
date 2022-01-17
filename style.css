@@ -181,7 +181,7 @@ header { padding: 31px 0 33px 0; }
 }
 .intro-item2 {
 	width 30%;
-	fload: left;
+	float: left;
 }
 .intro-item h2 {
 	font-size: 34px;
@@ -226,7 +226,6 @@ header { padding: 31px 0 33px 0; }
 }
 .intro-item-inner figure {
 	float: left;
-	width: 30%;
 	padding: 0 20px;
 }
 .intro-item-inner-content {
@@ -245,7 +244,7 @@ header { padding: 31px 0 33px 0; }
 	font-size: 21px;
 	line-height: 24px;
 	color: #686c70;
-	text-align: justify;
+	text-align: left;
 	margin-bottom: 24px;
 }
 .intro-item-inner-content p a {
